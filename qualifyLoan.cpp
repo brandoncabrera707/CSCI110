@@ -13,7 +13,7 @@ cout << "based on the information, annual salary is: " << annualSalary<< " and t
 if (annualSalary >= 10000 && yearsAtJob >=2){
     cout<< "you qualify for the loan" <<endl;
 }  
-   else if ( yearsAtJob < 2 && annualSalary <= 10000){
+   else if  ( yearsAtJob < 2 && annualSalary <= 10000){
    cout<< "You must have at least 2 years at the job and need to make at least 10000 to qualify" << endl;
   }
 
