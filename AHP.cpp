@@ -58,14 +58,14 @@ int milesOver(int &speedLimit, int& speedRecorded, string &plate){
     mphFee = 10.0;
     totalFee = base + (amountOver* mphFee);
     cout << fixed << setprecision(2);
-    cout << "A ticket of $" << totalFee << "is issued to" << plate << endl;
+    cout << "A ticket of $" << totalFee << " is issued to " << plate << endl;
 
   }
   else { // Amount over 50
     totalFee = 1000.0;
     cout << fixed << setprecision(2);
     cout << "The total ticket cost is $" << totalFee << endl;
-    cout << "A ticket of $" << totalFee << "is issued to" << plate << endl;
+    cout << "A ticket of $" << totalFee << " is issued to " << plate << endl;
 
   }
   
